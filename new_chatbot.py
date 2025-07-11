@@ -6,7 +6,7 @@ from streamlit.components.v1 import html
 # Assistant ID (can be a hard-coded ID)
 ASSISTANT_ID = 'asst_7Edb8yE5trutp3qXbOeWoPm4'
 # Create an OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="[YOUR_API_KEY]")
 
 # Initialize Streamlit app
 st.set_page_config(page_title="KSA PDPL",
