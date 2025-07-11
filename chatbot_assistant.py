@@ -3,9 +3,9 @@ from openai import OpenAI
 import streamlit as st
 
 # Assistant ID (can be a hard-coded ID)
-ASSISTANT_ID = 'asst_7Edb8yE5trutp3qXbOeWoPm4'
+ASSISTANT_ID = 'YOUR_ASSISTANT_ID_HERE'
 # Create an OpenAI client
-client = OpenAI(api_key="[YOUR_API_KEY]")
+client = OpenAI(api_key="YOUR_OPENAI_API_KEY_HERE")
 
 # Initialize Streamlit app
 st.set_page_config(page_title="KSA PDPL",
